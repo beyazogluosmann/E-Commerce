@@ -1,0 +1,51 @@
+.pd-wrapper {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.pd-image-box {
+  margin-right: 40px;
+}
+
+.pd-title {
+  font-family: arial;
+}
+
+.pd-description {
+  font-family: arial;
+  font-size: 20px;
+}
+
+.pd-price {
+  font-size: 50px;
+  font-family: arial;
+  font-weight: bold;
+  color: rgb(185,76,76);
+}
+
+.pd-quantity-box {
+  display: flex;
+  align-items: center;
+}
+
+.pd-icon {
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.pd-count {
+  font-size: 35px;
+  margin: 0 15px;
+}
+
+.pd-button {
+  margin-top: 25px;
+  border: none;
+  padding: 10px;
+  background-color: rgb(185,76,76);
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
